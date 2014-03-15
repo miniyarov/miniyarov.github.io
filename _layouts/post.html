@@ -6,9 +6,9 @@ layout: default
   <a href="/">&laquo; back to blogposts</a>
 </div>
 
-<div class="page-header">
+<div class="page-header clearfix">
   <h3>{{ page.title }}</h3>
-  <small>{{ page.date | date_to_string }}</small>
+  <div>{{ page.date | date_to_string }} {% include social_sharing.html %}</div>
 </div>
 
 

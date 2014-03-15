@@ -1,7 +1,0 @@
----
-layout: post
-title:  "Symfony2"
-date:   2014-03-16 10:00:00
----
-
-Symfony2 has been stable for nearly 3 year. We have been using it since its stable version.
