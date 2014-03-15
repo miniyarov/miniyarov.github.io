@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Minigram - (Auto) Print Instagram photos by #hashtags"
+date:   2014-03-15 17:12:18
+---
+
+Minigram is a web application written with [Silex Micro-framework][silex-link]. What it does is
+that it prints Instagram photos constantly checking for a #hashtag that you specify.
+Check out [github repo][minigram-repo].
+
+#### Auto-print photos:
+
+In order to auto-print photos you have to run Minigram through Google Chrome Kiosk Mode (or any browser with kiosk print support).
+When Chrome runs in kiosk mode it does not need a user interaction when print is triggered with `javascript:window.print();`
+
+Run Chrome in kiosk mode: `chrome --kiosk --kiosk-printing`
+
+Happy printing!
+
+[minigram-repo]: https://github.com/miniyarov/minigram
+[silex-link]: http://silex.sensiolabs.org/
