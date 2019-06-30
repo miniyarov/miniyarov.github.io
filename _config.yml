@@ -1,4 +1,1 @@
 name: Ulugbek Miniyarov
-webrick:
-  headers:
-    Content-Disposition: attachment; filename="apple.mobileconfig"
